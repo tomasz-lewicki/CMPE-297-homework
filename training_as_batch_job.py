@@ -28,8 +28,8 @@ class CocoConfig(Config):
     # Give the configuration a recognizable name
     NAME = "coco"
     
-    IMAGES_PER_GPU = 1 #Only one image fits on my 6GB GTX1060. 
-    #IMAGES_PER_GPU = 1 #version for Tesla P100
+    #IMAGES_PER_GPU = 1 #Only one image fits on my 6GB GTX1060. 
+    IMAGES_PER_GPU = 2 #version for Tesla P100
     
     NUM_CLASSES = 1 + 80  #80 COCO classes + BG class
 
